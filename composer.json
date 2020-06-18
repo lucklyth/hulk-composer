@@ -1,0 +1,21 @@
+{
+    "name": "hulk/hulk-composer",
+    "description": "composer打包测试",
+    "type": "project",
+    "license": "library",
+    "authors": [
+        {
+            "name": "hulk",
+            "email": "hulktan@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": ">=7.0.0"
+    },
+    "autoload": {
+	"psr-4": {
+	    "Hulk\\Push\\": "src/Hulk/Push"
+	}
+    }
+}
